@@ -76,3 +76,57 @@ def main():
  print("Invalid choice. Please select a valid option.")
 if __name__ == "__main__":
  main()
+
+Output: 
+
+Welcome to the Virtual Parking Assistant (ASCII Grid).
+
+Parking Lot Status:
+  0 1 2 3 4 5 6 7 8 9
+0 . . . . . . . . . .
+1 . . . . . . . . . .
+2 . . . . . . . . . .
+3 . . . . . . . . . .
+4 . . . . . . . . . .
+Legend: '.' = vacant, 'X' = occupied
+
+Options:
+ 1 - Park a vehicle
+ 2 - Release a spot
+ 3 - Exit
+Enter your choice: 1
+Vehicle parked at spot (0, 0).
+
+Parking Lot Status:
+  0 1 2 3 4 5 6 7 8 9
+0 X . . . . . . . . .
+1 . . . . . . . . . .
+2 . . . . . . . . . .
+3 . . . . . . . . . .
+4 . . . . . . . . . .
+Legend: '.' = vacant, 'X' = occupied
+
+Options:
+ 1 - Park a vehicle
+ 2 - Release a spot
+ 3 - Exit
+Enter your choice: 2
+Enter row to release: 0
+Enter column to release: 0
+Spot (0, 0) released and now vacant.
+
+Parking Lot Status:
+  0 1 2 3 4 5 6 7 8 9
+0 . . . . . . . . . .
+1 . . . . . . . . . .
+2 . . . . . . . . . .
+3 . . . . . . . . . .
+4 . . . . . . . . . .
+Legend: '.' = vacant, 'X' = occupied
+
+Options:
+ 1 - Park a vehicle
+ 2 - Release a spot
+ 3 - Exit
+Enter your choice: 3
+Exiting Virtual Parking Assistant. Goodbye!
